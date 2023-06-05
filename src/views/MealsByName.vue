@@ -13,7 +13,7 @@
 import { ref, computed, onMounted } from 'vue'
 import store from '../store'
 import { useRoute } from 'vue-router'
-import MealItem from '../components/MeaIItem.vue'
+import MealItem from '../components/MealItem.vue'
 
 const route = useRoute()
 const keyword = ref('')
