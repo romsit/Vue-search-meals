@@ -1,6 +1,6 @@
 <template>
     <div class="max-w-[800px] mx-auto">
-        <h1 class="text-5xl font-bold mb-5">{{ meal.strMeal }}</h1>
+        <h1 class="text-5xl font-bold mb-5 mt-5">{{ meal.strMeal }}</h1>
         <img :src="meal.strMealThumb" alt="strMeal" class="max-w-full">
         <div class=" grid grid-cols-1 sm:grid-cols-3 text-lg py-2">
             <div>
